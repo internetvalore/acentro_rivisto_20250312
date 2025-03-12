@@ -1,0 +1,546 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ServiceDetailHeader from '../components/ServiceDetailHeader.astro';
+import ServiceDetailBox from '../components/ServiceDetailBox.astro';
+---
+
+<Layout title="DIGIPRAM - Gestionale per Agenzie di Pratiche Amministrative - Acentro Services">
+  <Header />
+  
+  <ServiceDetailHeader 
+    title="DIGIPRAM" 
+    description="Il gestionale pensato e ideato per l'Agenzia di Pratiche Amministrative che oggi è anche web"
+    icon="/images/service-icon-2.svg"
+  />
+  
+  <section class="service-detail-section">
+    <div class="container">
+      <div class="service-intro">
+        <p>
+          <strong>DIGIPRAM</strong> è il gestionale pensato e ideato per l'Agenzia di Pratiche Amministrative che oggi è anche web. 
+          È stato creato da <strong>Acentro Services</strong> e non è destinato alla rivendita, ma è un prodotto a disposizione del mercato.
+        </p>
+        <p>
+          DIGIPRAM è pensato e sviluppato per un'agenzia di pratiche amministrative, ovvero un professionista ibrido che deve gestire molte variabili, 
+          sia quelle prevedibili per una pratica amministrativa burocratica, sia l'imprevedibile, offrendo una procedura efficace per risolvere i problemi.
+        </p>
+      </div>
+      
+      <div class="digipram-overview">
+        <div class="digipram-image">
+          <img src="/images/service-icon-2.svg" alt="DIGIPRAM Gestionale" class="digipram-logo">
+        </div>
+        <div class="digipram-description">
+          <h2>Un gestionale completo per la tua agenzia</h2>
+          <p>
+            DIGIPRAM offre un sistema di gestione che affronta il web e che è destinato ad un'agenzia di pratiche amministrative 
+            o un professionista ibrido che deve gestire molte variabili e che ha bisogno di una procedura efficace.
+          </p>
+          <p>
+            L'obiettivo è semplificare l'uso e garantire precisione, intercettando a colpo d'occhio ogni particolare.
+          </p>
+        </div>
+      </div>
+      
+      <div class="features-section">
+        <h2>Caratteristiche principali</h2>
+        
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-1.svg" alt="Installazione">
+            </div>
+            <h3>Installazione flessibile</h3>
+            <p>Può essere installato in sede o essere utilizzato integralmente via web, con un lato cliente finale per l'interazione operativa.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-2.svg" alt="Cruscotto operativo">
+            </div>
+            <h3>Cruscotto operativo</h3>
+            <p>Unico per registrazioni, avanzamenti e controllo pratiche, scadenze e comunicazioni interattive, archivio e workflow guidato quando serve.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-3.svg" alt="Gestione listini">
+            </div>
+            <h3>Gestione di listini e articoli</h3>
+            <p>Gestione analitica o sintetica delle spese, automazione di ogni aspetto contabile e piccola gestione amministrativa e finanziaria integrata con la pratica.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-1.svg" alt="Archivio interattivo">
+            </div>
+            <h3>Archivio interattivo</h3>
+            <p>Per le pratiche e ogni documento, con predisposizione di un'area documentale gestibile dall'operatore, fino alla conservazione a norma con il servizio di Acentro Services.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-2.svg" alt="Pratiche integrate">
+            </div>
+            <h3>Pratiche integrate</h3>
+            <p>Possibilità di azioni simultanee su più pratiche/schede.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-3.svg" alt="Listini su vari livelli">
+            </div>
+            <h3>Listini su vari livelli</h3>
+            <p>Sconti in percentuale o tariffa personalizzata, coupon, promozioni, stampa di proposte e preventivi personalizzati.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-1.svg" alt="Gestione contatto telefonico">
+            </div>
+            <h3>Gestione del contatto telefonico</h3>
+            <p>Censimento e profilazione tipologica dei clienti per un CRM performante.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-2.svg" alt="Gestione magazzino">
+            </div>
+            <h3>Gestione del magazzino</h3>
+            <p>Per la distribuzione di strumenti come firma digitale, smart card, USB, ecc.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-3.svg" alt="Scadenzari multipli">
+            </div>
+            <h3>Scadenzari multipli</h3>
+            <p>Con invio di testi automatizzati, posta elettronica integrata e collegamento al fascicolo della pratica.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-1.svg" alt="Misurazione tempi">
+            </div>
+            <h3>Misurazione dei tempi di lavorazione</h3>
+            <p>Profili specifici per ogni operatore.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-2.svg" alt="Statistiche">
+            </div>
+            <h3>Statistiche diversificate</h3>
+            <p>Per creare business intelligence con strumenti ed elaborati predefiniti o tramite estrazione in Excel e invio di PDF personalizzati.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="/images/service-icon-3.svg" alt="Fatturazione elettronica">
+            </div>
+            <h3>Integrazione con la fatturazione elettronica</h3>
+            <p>DIGIPRAM è pronto per l'integrazione con sistemi di contabilità grazie alla fatturazione elettronica, consentendo l'adozione di standard e, se necessario, l'inoltro automatizzato a SDI tramite il servizio di Acentro Services.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="benefits-section">
+        <h2>Vantaggi di DIGIPRAM</h2>
+        
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <h3>Efficienza operativa</h3>
+            <p>Gestione centralizzata di tutte le pratiche amministrative con workflow ottimizzati.</p>
+          </div>
+          
+          <div class="benefit-item">
+            <h3>Risparmio di tempo</h3>
+            <p>Automazione delle attività ripetitive e monitoraggio immediato dello stato delle pratiche.</p>
+          </div>
+          
+          <div class="benefit-item">
+            <h3>Controllo completo</h3>
+            <p>Visibilità totale su tutte le attività dell'agenzia, dalle pratiche alla fatturazione.</p>
+          </div>
+          
+          <div class="benefit-item">
+            <h3>Flessibilità</h3>
+            <p>Adattabile alle esigenze specifiche di ogni agenzia di pratiche amministrative.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="target-section">
+        <h2>A chi è rivolto</h2>
+        
+        <div class="target-content">
+          <div class="target-image">
+            <img src="/images/service-icon-1.svg" alt="Target DIGIPRAM">
+          </div>
+          <div class="target-description">
+            <p>
+              DIGIPRAM è destinato a:
+            </p>
+            <ul>
+              <li>Agenzie di pratiche amministrative</li>
+              <li>Professionisti che gestiscono pratiche burocratiche</li>
+              <li>Studi professionali con necessità di gestire documentazione e scadenze</li>
+              <li>Operatori che necessitano di un sistema integrato per la gestione delle pratiche e della fatturazione</li>
+            </ul>
+            <p>
+              Il software è particolarmente indicato per chi deve gestire molte variabili, sia quelle prevedibili per una pratica amministrativa burocratica, 
+              sia l'imprevedibile, offrendo una procedura efficace per risolvere i problemi.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonials-section">
+        <h2>Cosa dicono i nostri clienti</h2>
+        
+        <div class="testimonials-slider">
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>"DIGIPRAM ha rivoluzionato la gestione della nostra agenzia. Ora abbiamo tutto sotto controllo e risparmiamo ore di lavoro ogni settimana."</p>
+            </div>
+            <div class="testimonial-author">
+              <p><strong>Studio Rossi</strong> - Agenzia di pratiche amministrative</p>
+            </div>
+          </div>
+          
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>"La possibilità di gestire tutto via web ci ha permesso di lavorare anche da remoto, aumentando la nostra produttività."</p>
+            </div>
+            <div class="testimonial-author">
+              <p><strong>Agenzia Bianchi</strong> - Servizi amministrativi</p>
+            </div>
+          </div>
+          
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>"L'integrazione con la fatturazione elettronica è stata fondamentale per la nostra agenzia. Un sistema completo che ci ha semplificato la vita."</p>
+            </div>
+            <div class="testimonial-author">
+              <p><strong>Studio Verdi</strong> - Consulenza amministrativa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cta-section">
+        <h2>Scopri DIGIPRAM per la tua agenzia</h2>
+        <p>Contattaci per una dimostrazione gratuita e scopri come DIGIPRAM può trasformare la gestione della tua agenzia di pratiche amministrative.</p>
+        <a href="#contatti" class="btn btn-primary">Richiedi una demo</a>
+      </div>
+    </div>
+  </section>
+  
+  <Footer />
+</Layout>
+
+<style>
+  .service-detail-section {
+    padding: 4rem 0;
+    background-color: var(--light-bg);
+  }
+  
+  .service-intro {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+  }
+  
+  .service-intro p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .digipram-overview {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .digipram-image {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .digipram-logo {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    background-color: var(--light-bg);
+    border-radius: 50%;
+  }
+  
+  .digipram-description {
+    flex: 0 0 70%;
+    padding-left: 2rem;
+  }
+  
+  .digipram-description h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .features-section {
+    margin-bottom: 3rem;
+  }
+  
+  .features-section h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .feature-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-icon {
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-icon img {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .feature-card p {
+    color: var(--text-color);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+  
+  .benefits-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .benefits-section h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .benefit-item {
+    padding: 1.5rem;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .benefit-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .target-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .target-section h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .target-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .target-image {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .target-image img {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    background-color: var(--light-bg);
+    border-radius: 50%;
+  }
+  
+  .target-description {
+    flex: 0 0 70%;
+    padding-left: 2rem;
+  }
+  
+  .target-description ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .target-description li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .testimonials-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .testimonials-section h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .testimonials-slider {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .testimonial {
+    flex: 1 1 calc(33.333% - 2rem);
+    min-width: 250px;
+    background-color: var(--light-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimonial-content {
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .testimonial-author {
+    text-align: right;
+  }
+  
+  .cta-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .cta-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section p {
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (max-width: 992px) {
+    .digipram-overview {
+      flex-direction: column;
+    }
+    
+    .digipram-image {
+      margin-bottom: 2rem;
+    }
+    
+    .digipram-description {
+      padding-left: 0;
+      text-align: center;
+    }
+    
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .target-content {
+      flex-direction: column;
+    }
+    
+    .target-image {
+      margin-bottom: 2rem;
+    }
+    
+    .target-description {
+      padding-left: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .benefits-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .testimonial {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

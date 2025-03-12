@@ -1,0 +1,162 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ServiceDetailHeader from '../components/ServiceDetailHeader.astro';
+import ServiceDetailBox from '../components/ServiceDetailBox.astro';
+---
+
+<Layout title="Servizi per Professionisti - Acentro Services">
+  <Header />
+  
+  <ServiceDetailHeader 
+    title="Servizi per Professionisti" 
+    description="Soluzioni dedicate per Notai e Commercialisti"
+    icon="/images/service-icon-2.svg"
+  />
+  
+  <section class="service-detail-section">
+    <div class="container">
+      <div class="service-intro">
+        <p>
+          <strong>Acentro Services</strong> offre servizi specializzati per professionisti, con soluzioni dedicate per <strong>Notai</strong> e <strong>Commercialisti</strong>, 
+          garantendo assistenza completa e professionale per tutte le loro esigenze.
+        </p>
+      </div>
+      
+      <div class="service-category">
+        <h2>Servizi per Notai</h2>
+        <div class="service-boxes">
+          <ServiceDetailBox 
+            title="Annotazioni" 
+            description="Gestione completa delle pratiche di annotazione presso i registri competenti."
+            icon="/images/service-icon-1.svg"
+          />
+          
+          <ServiceDetailBox 
+            title="Trascrizioni" 
+            description="Assistenza per la trascrizione di atti notarili presso le Conservatorie."
+            icon="/images/service-icon-2.svg"
+          />
+          
+          <ServiceDetailBox 
+            title="Unico" 
+            description="Supporto nella gestione e presentazione del Modello Unico."
+            icon="/images/service-icon-3.svg"
+          />
+          
+          <ServiceDetailBox 
+            title="Unimod" 
+            description="Assistenza nella compilazione e presentazione del modello Unimod."
+            icon="/images/service-icon-1.svg"
+          />
+          
+          <ServiceDetailBox 
+            title="Voltura 2.0" 
+            description="Supporto completo per le pratiche di voltura catastale con il nuovo sistema Voltura 2.0."
+            icon="/images/service-icon-2.svg"
+          />
+        </div>
+      </div>
+      
+      <div class="service-category">
+        <h2>Servizi per Commercialisti</h2>
+        <div class="service-boxes">
+          <ServiceDetailBox 
+            title="Deposito atti Registro Imprese" 
+            description="Assistenza completa per il deposito di atti presso il Registro delle Imprese."
+            icon="/images/service-icon-3.svg"
+          />
+          
+          <ServiceDetailBox 
+            title="Gestione SCIA" 
+            description="Supporto nella preparazione e presentazione della Segnalazione Certificata di Inizio Attività."
+            icon="/images/service-icon-1.svg"
+          />
+          
+          <ServiceDetailBox 
+            title="Pratiche telematiche" 
+            description="Gestione completa delle pratiche telematiche verso gli enti pubblici."
+            icon="/images/service-icon-2.svg"
+          />
+        </div>
+      </div>
+      
+      <div class="service-cta">
+        <h3>Sei un professionista e hai bisogno di supporto?</h3>
+        <p>Contattaci per una consulenza personalizzata e scopri come possiamo aiutarti a gestire le tue pratiche in modo efficiente.</p>
+        <a href="/contattaci" class="btn btn-primary">Richiedi informazioni</a>
+      </div>
+    </div>
+  </section>
+  
+  <Footer />
+</Layout>
+
+<style>
+  .service-detail-section {
+    padding: 4rem 0;
+    background-color: var(--light-bg);
+  }
+  
+  .service-intro {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    text-align: center;
+  }
+  
+  .service-intro p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .service-category {
+    margin-bottom: 3rem;
+  }
+  
+  .service-category h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .service-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .service-cta {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .service-cta h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .service-cta p {
+    margin-bottom: 1.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (max-width: 992px) {
+    .service-boxes {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .service-boxes {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
